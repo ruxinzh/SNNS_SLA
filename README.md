@@ -9,11 +9,11 @@ python scr/dataset_gen.py --output_dir './' --num_samples_val 10 --num_samples_t
 ## Encoder & Network architectures 
 
 <p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/Encoder.png" width="1825" height="710">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/Encoder.PNG" width="580" height="340">
 </p>
 
 <p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/Network.png" width="1825" height="710">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/Network.PNG" width="765" height="296">
 </p>
 ## Training 
 BaseNet1: without SA layer and contrasive loss
@@ -41,7 +41,7 @@ python feature_analysis.py --sparsity 0.3
 ```
 Expected outputs:
 <p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/featureAnalysis.png" width="1000" height="600">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/featureAnalysis.PNG" width="600" height="600">
 </p>
 
 ### DOA Estimation
@@ -50,17 +50,15 @@ python eval.py --num_simulations 5000 --threshold 0.5 --num_targets 3
 ```
 Expected outputs:
 <p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/accuracy.png" width="1000" height="600">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/accuracy.png" width="385" height="320">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/precision.png" width="385" height="320">
 </p>
+
 <p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/precision.png" width="1000" height="600">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/F1.png" width="385" height="320">
+  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/recall.png" width="385" height="320">
 </p>
-<p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/F1.png" width="1000" height="600">
-</p>
-<p align="center">
-  <img src="https://github.com/ruxinzh/SNNS_SLA/blob/main/fig/recall.png" width="1000" height="600">
-</p>
+
 
 ## Enviroment 
 The Conda environment required for this project is specified in the file 'conda_env.txt'. This file contains a list of all the necessary Python packages and their versions to ensure compatibility and reproducibility of the project's code.
